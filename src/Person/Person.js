@@ -3,7 +3,7 @@ import "./Person.css";
 
 const person = props => {
   return (
-    <div className="Person">
+    <article className="Person">
       <date>Last Update &mdash; {props.time}</date>
       <section>
         <h1>Code Scheme</h1>
@@ -18,7 +18,7 @@ const person = props => {
         <hr />
         <footer>Social media: facebook, instagram, twitter</footer>
       </section>
-    </div>
+    </article>
   );
 };
 
